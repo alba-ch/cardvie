@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_app"
+        tools:context=".ui.home.HomeFragment">
+
+    <TextView
+            android:text="@string/title_addCollection"
+            android:id="@+id/title_collection"
+            android:layout_width="318dp"
+            android:layout_height="42dp"
+            style="@style/title_semilarge"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.322" app:layout_constraintVertical_bias="0.032"/>
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="365dp"
+            android:layout_height="512dp"
+            tools:listitem="@layout/fragment_collection_list_item"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="3"
+            android:backgroundTint="@color/transparent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.475"
+            android:id="@+id/recyclerView" app:layout_constraintTop_toBottomOf="@+id/txt_upload"
+            app:layout_constraintVertical_bias="0.0"/>
+
+    <ImageButton
+            android:src="@drawable/btn_nav_heart"
+            android:backgroundTint="@color/transparent"
+            android:layout_width="110dp"
+            android:layout_height="110dp" android:id="@+id/btn_save"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.498"
+            android:layout_marginBottom="32dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+            android:text="@string/txt_title"
+            style="@style/txt_normal"
+            android:background="@color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/txt_title"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_collection" android:layout_marginTop="24dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+            android:text="@string/txt_frontpage"
+            style="@style/txt_normal"
+            android:backgroundTint="@color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/txt_frontpage"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_title" android:layout_marginTop="12dp"
+            app:layout_constraintHorizontal_bias="0.498"/>
+
+    <TextView
+            android:text="@string/txt_upload"
+            style="@style/txt_normal"
+            android:backgroundTint="@color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/txt_upload"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.136" app:layout_constraintTop_toBottomOf="@+id/img_frontpage"
+            android:layout_marginTop="28dp"/>
+    <ImageView
+            android:src="@drawable/white_corners"
+            android:layout_width="117dp"
+            android:layout_height="164dp" android:id="@+id/img_frontpage"
+            app:layout_constraintTop_toBottomOf="@+id/txt_frontpage"
+            android:layout_marginTop="16dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

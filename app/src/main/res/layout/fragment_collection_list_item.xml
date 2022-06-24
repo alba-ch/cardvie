@@ -3,7 +3,7 @@
                                                    xmlns:app="http://schemas.android.com/apk/res-auto"
                                                    android:id="@+id/collection"
                                                    android:layout_width="match_parent"
-                                                   android:layout_height="230dp"
+                                                   android:layout_height="150dp"
                                                    android:layout_marginStart="7dp"
                                                    android:layout_marginTop="20dp"
                                                    android:layout_marginEnd="6dp"
@@ -14,39 +14,10 @@
                                                    android:orientation="vertical">
 
 
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/container"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:alpha="0.8"
-            android:background="@drawable/collection_description"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent">
-
-        <TextView
-                android:id="@+id/name_collection"
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="20dp"
-                android:fontFamily="@font/light"
-                android:gravity="center_vertical"
-                android:text="Test"
-                android:textSize="15sp"
-                android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
     <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/boton"
             android:layout_width="match_parent"
-            android:layout_height="230dp"
+            android:layout_height="match_parent"
             android:background="@color/transparent"
             android:backgroundTint="@color/transparent"
             app:layout_constraintBottom_toBottomOf="parent"
