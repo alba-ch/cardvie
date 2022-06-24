@@ -20,5 +20,8 @@
     <color name="shadowed">#80000000</color>
     <color name="gris">#D1D0D0</color>
 
+    <color name="titleColor">#FFFFFF</color>
+    <color name="textColor">#6DFFFFFF</color>
+    <color name="inputColor">#FFFFFF</color>
 
 </resources>

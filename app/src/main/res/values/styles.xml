@@ -25,6 +25,7 @@
     <style name="roundedImageViewRounded">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item>
+        <item name="background">@color/transparent</item>
     </style>
 
     <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">
@@ -36,6 +37,24 @@
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">30dp</item>
         <item name="color">@color/white</item>
+    </style>
+    
+    <style name="title_large">
+        <item name="android:padding">4dip</item>
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="android:textAlignment">center</item>
+        <item name="fontFamily">@font/bahnschrift</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="title_normal">
+        <item name="android:padding">4dip</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="fontFamily">@font/bahnschrift</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 </resources>
 

@@ -1,6 +1,20 @@
 <resources>
     <string name="app_name">cardvie</string>
-    <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="title_home">MY CARD COLLECTION</string>
+    <string name="title_play">PLAY</string>
+    <string name="title_addCollection">NEW COLLECTION</string>
+    <string name="title_welcome">Welcome back!</string>
+    <string name="title_configuration">CONFIGURATION</string>
+
+    <string name="txt_welcome">Welcome back!</string>
+    <string name="txt_title">Welcome back!</string>
+    <string name="txt_frontpage">Front page</string>
+    <string name="txt_upload">Upload your cards</string>
+    <string name="txt_pfp">Profile picture</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_City">City</string>
+    <string name="txt_changePsw">Change your password</string>
 </resources>
