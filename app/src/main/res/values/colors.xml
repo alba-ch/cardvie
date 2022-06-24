@@ -24,4 +24,7 @@
     <color name="textColor">#6DFFFFFF</color>
     <color name="inputColor">#FFFFFF</color>
 
+
+    <color name="bg_settings">#311A70</color>
+
 </resources>
